@@ -76,3 +76,14 @@ vi.,  2 de may. de 2025 19:47:09:
  tests:  25|1
 total_score: 60/70
 8b8921c
+vi.,  2 de may. de 2025 19:50:18: 
+ treemap.c | 7 +++++--
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+Compilation failed
+In file included from test.c:4:0:
+treemap.c: In function 'upperBound':
+treemap.c:156:21: error: comparison between pointer and integer [-Werror]
+     while (!current == NULL) {
+                     ^~
+cc1.exe: all warnings being treated as errors
+a446e32
