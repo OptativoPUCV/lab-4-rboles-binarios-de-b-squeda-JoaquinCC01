@@ -137,7 +137,7 @@ Pair * upperBound(TreeMap * tree, void* key) {
             current = current->right;
         }
     }
-    return dato->pair;
+    return dato != NULL ? dato->pair : NULL;
 }
 
 Pair * firstTreeMap(TreeMap * tree) {
